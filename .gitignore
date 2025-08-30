@@ -1,0 +1,37 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+venv/
+env/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build/dist
+build/
+dist/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Large artefacts (recommend Git LFS)
+data/*.pth
+data/*.pkl
+data/*.save
+data/*.pt
+data/*.onnx
+
+# Optional: ignore big CSVs (keep samples only)
+# data/*.csv
